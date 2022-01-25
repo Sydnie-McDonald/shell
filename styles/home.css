@@ -7,7 +7,7 @@ body, section{
     display: flex;
 }
 
-.case {
+.case1, .case2, .case3 {
     height: 300px;
     display: flex;
     justify-content: center;
