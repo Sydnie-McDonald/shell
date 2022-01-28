@@ -1,1 +1,32 @@
 /* add home page styles here */
+body,
+section {
+    background-color: gold;
+}
+
+.cases {
+    height: 300px;
+    display: flex;
+}
+
+.case1,
+.case2,
+.case3 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hiding-img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.money::after {
+    font-size: 8rem;
+    content: '💰';
+    position: absolute;
+}
