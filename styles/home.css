@@ -1,19 +1,22 @@
 /* add home page styles here */
-body, section{
+body,
+section {
     background-color: gold;
 }
+
 .cases {
     height: 300px;
     display: flex;
 }
 
-.case1, .case2, .case3 {
+.case1,
+.case2,
+.case3 {
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .hiding-img {
@@ -27,4 +30,3 @@ body, section{
     content: '💰';
     position: absolute;
 }
-
